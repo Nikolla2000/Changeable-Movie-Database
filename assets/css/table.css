@@ -1,0 +1,40 @@
+/* Table */
+
+table{
+    font-size: 14px;
+    font-family: "Fredoka One";
+    position: absolute;
+}
+
+.inactive {
+    opacity: 0.3;
+}
+
+
+
+/* Table Rows */
+
+tr:hover:not(tr:first-of-type) {
+    background-color: rgb(230,230,230);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+tr{
+    background-color: rgb(212, 212, 212);
+}
+
+tr:first-of-type {
+    background-color: bisque;
+}
+
+tr:first-of-type:not(:first-child){
+    text-align: left;
+}
+
+
+
+/* Table Data */
+td{
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/custom/icomoon.eot?s94p4z');
+  src:  url('../fonts/custom/icomoon.eot?s94p4z#iefix') format('embedded-opentype'),
+    url('../fonts/custom/icomoon.ttf?s94p4z') format('truetype'),
+    url('../fonts/custom/icomoon.woff?s94p4z') format('woff'),
+    url('../fonts/custom/icomoon.svg?s94p4z#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-truck:before {
+  content: "\e900";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+.icon-spades:before {
+  content: "\e917";
+}
+.icon-folder:before {
+  content: "\e92f";
+}
+.icon-price-tags:before {
+  content: "\e936";
+}
+.icon-map:before {
+  content: "\e94b";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-laptop:before {
+  content: "\e957";
+}
+.icon-hour-glass:before {
+  content: "\e979";
+}
+.icon-spinner9:before {
+  content: "\e982";
+}
+.icon-spinner11:before {
+  content: "\e984";
+}
+.icon-zoom-in:before {
+  content: "\e987";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}

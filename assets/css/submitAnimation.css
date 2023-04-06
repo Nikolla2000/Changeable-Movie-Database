@@ -1,0 +1,23 @@
+@keyframes submitAnimation {
+    0%{
+        background-color: #a8ecf8;
+        color:#fff;
+    }
+    33%{
+        background-color: rgb(212, 212, 212);
+    }
+    66%{
+        background-color: #a8ecf8;
+        color:#8a8a8a;
+    }
+    100%{
+        background-color: rgb(212, 212, 212);
+        color:#000;
+    }
+}
+
+
+.animate {
+    animation-name: submitAnimation;
+    animation-duration: 1.5s;
+  }
